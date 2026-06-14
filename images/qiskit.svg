@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Qiskit">
+  <circle cx="50" cy="50" r="46" fill="none" stroke="#157f8f" stroke-width="3" opacity="0.55"/>
+  <g fill="#157f8f">
+    <circle cx="50" cy="20" r="6"/>
+    <circle cx="73" cy="33.5" r="6"/>
+    <circle cx="73" cy="66.5" r="6"/>
+    <circle cx="50" cy="80" r="6"/>
+    <circle cx="27" cy="66.5" r="6"/>
+    <circle cx="27" cy="33.5" r="6"/>
+  </g>
+  <circle cx="50" cy="50" r="9" fill="#f5bd22"/>
+</svg>
