@@ -301,6 +301,8 @@ a {
 .card__icon {
   width: 56px;
   height: 56px;
+  object-fit: contain;
+  object-position: left;
   margin-bottom: var(--space-lg);
 }
 
@@ -401,6 +403,7 @@ a {
 .secondary-card__icon {
   width: 32px;
   height: 32px;
+  object-fit: contain;
   flex-shrink: 0;
 }
 
