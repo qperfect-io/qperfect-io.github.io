@@ -4,6 +4,13 @@ All notable changes to the QPerfect documentation portal are recorded here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-08-07
+
+### Added
+
+- MIMIQ&trade; Exaqt card on the MIMIQ sub-hub, under a new "Run it locally"
+  section for simulator engines, linking `/exaqt-python/`.
+
 ## [1.0.0] - 2026-06-14
 
 ### Added
