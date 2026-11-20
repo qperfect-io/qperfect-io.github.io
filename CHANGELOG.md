@@ -4,6 +4,18 @@ All notable changes to the QPerfect documentation portal are recorded here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- MIMIQ&trade; TensorKeeper card in the "Run it locally" section of the MIMIQ
+  sub-hub, linking `/tensorkeeper-python/`.
+
+### Changed
+
+- The "Run it locally" grid holds three cards side by side, with a new
+  `card-grid--triple` width.
+
 ## [1.2.0] - 2026-08-08
 
 ### Added

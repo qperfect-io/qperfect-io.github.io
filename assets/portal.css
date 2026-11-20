@@ -258,6 +258,11 @@ a {
   max-width: 460px;
 }
 
+/* Three 280px columns and their gaps, side by side on a wide screen. */
+.card-grid--triple {
+  max-width: 920px;
+}
+
 /* Cards — accent driven by --card-accent set per modifier. */
 .card {
   --card-accent: var(--color-primary);
