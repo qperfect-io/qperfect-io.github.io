@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MIMIQ&trade; Documentation | QPerfect</title>
-    <meta name="description" content="MIMIQ&trade; quantum circuit emulator documentation. Choose the Python, Qiskit, or Julia interface, or run circuits locally with the Exaqt state vector and TensorWeaver matrix product state engines.">
+    <meta name="description" content="MIMIQ&trade; quantum circuit emulator documentation. Choose the Python, Qiskit, or Julia interface, or run circuits locally with the Exaqt state vector, TensorWeaver matrix product state and TensorKeeper Clifford-augmented MPS engines.">
     <link rel="icon" href="../images/qperfect.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -101,7 +101,7 @@
             <section class="section">
                 <div class="container">
                     <p class="section__label">Run it locally</p>
-                    <div class="card-grid">
+                    <div class="card-grid card-grid--triple">
                         <a class="card fade-in" href="/exaqt-python/">
                             <img class="card__icon" src="../images/qperfect.svg" alt="">
                             <h2 class="card__title">MIMIQ&trade; Exaqt <span class="badge">New</span></h2>
@@ -130,6 +130,23 @@
                             </p>
                             <span class="card__cta">
                                 Explore TensorWeaver docs
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                                </svg>
+                            </span>
+                        </a>
+
+                        <a class="card fade-in" href="/tensorkeeper-python/">
+                            <img class="card__icon" src="../images/qperfect.svg" alt="">
+                            <h2 class="card__title">MIMIQ&trade; TensorKeeper <span class="badge">New</span></h2>
+                            <span class="card__package">mimiq-tensorkeeper</span>
+                            <p class="card__text">
+                                The Clifford-augmented matrix product state engine, on your own
+                                machine. Clifford gates cost nothing, so error correction and other
+                                Clifford-heavy circuits run far beyond a plain MPS.
+                            </p>
+                            <span class="card__cta">
+                                Explore TensorKeeper docs
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                                 </svg>
